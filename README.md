@@ -14,7 +14,7 @@ To simplify the data and facilitate analysis and modeling, a new category called
 The pre-optimization model achieved a maximum accuracy of 72.8% and a loss of 55.5%. This model was built using: 'activation': 'relu', 'sigmoid',loss="binary_crossentropy", optimizer="adam"
 The model is performing well in terms of accuracy, but it can still be optimized to reduce the loss further.
 
-The optimization model underwent trials before achieving a maximum accuracy of 73.3% and a loss of 55.4%. This model was built using: {'activation': 'relu', 'tanh','sigmoid','}
+The optimization model underwent trials before achieving a maximum accuracy of 73.1% and a loss of 54.8%. This model was built using: {'activation': 'relu', 'tanh','sigmoid','}
 Keras Tuner, a hyperparameter tuning library, was utilized during the experiments. 
 Based on the results, the optimal number of epochs was found to be 35, and the activation functions were set to ['relu', 'tanh', 'sigmoid']. 
 The output layer employed the "sigmoid" activation function.
